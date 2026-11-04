@@ -1,0 +1,50 @@
+GET /crop/list?pageNum=1&pageSize=10
+HTTP 200
+响应:
+{
+  "code": 200,
+  "data": {
+    "current": 1,
+    "pages": 1,
+    "records": [
+      {
+        "createTime": "2026-11-04T14:07:37.562085",
+        "cropName": "柑橘",
+        "cropType": "水果",
+        "growthCycle": 365,
+        "id": 3,
+        "plantStatus": 0,
+        "suitArea": "湘南",
+        "updateTime": "2026-11-04T14:07:37.562085",
+        "varietyName": "温州蜜柑",
+        "yieldLevel": 2000
+      },
+      {
+        "createTime": "2026-11-04T14:07:37.562085",
+        "cropName": "油菜",
+        "cropType": "油料",
+        "growthCycle": 210,
+        "id": 2,
+        "plantStatus": 1,
+        "suitArea": "湖南",
+        "updateTime": "2026-11-04T14:07:37.562085",
+        "varietyName": "中双11号",
+        "yieldLevel": 180
+      },
+      {
+        "createTime": "2026-11-04T14:07:37.557089",
+        "cropName": "水稻",
+        "cropType": "粮食",
+        "growthCycle": 130,
+        "id": 1,
+        "plantStatus": 1,
+        "suitArea": "长江中下游",
+        "updateTime": "2026-11-04T14:07:37.557089",
+        "varietyName": "杂交稻",
+        "yieldLevel": 600
+      }
+    ],
+    "total": 3
+  },
+  "msg": "操作成功"
+}
