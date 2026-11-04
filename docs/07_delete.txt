@@ -1,0 +1,8 @@
+DELETE /crop/4
+HTTP 200
+响应:
+{
+  "code": 200,
+  "data": null,
+  "msg": "操作成功"
+}
