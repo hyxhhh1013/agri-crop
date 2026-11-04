@@ -1,0 +1,17 @@
+POST /crop/add
+HTTP 200
+请求体:
+{
+  "cropName": "水稻",
+  "varietyName": "测试",
+  "cropType": "粮食",
+  "growthCycle": 0,
+  "yieldLevel": 100,
+  "plantStatus": 1
+}
+响应:
+{
+  "code": 400,
+  "data": null,
+  "msg": "生长周期不能小于1天"
+}
