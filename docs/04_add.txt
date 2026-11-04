@@ -1,0 +1,29 @@
+POST /crop/add
+HTTP 200
+请求体:
+{
+  "cropName": "玉米",
+  "varietyName": "郑单958",
+  "cropType": "粮食",
+  "suitArea": "黄淮海",
+  "growthCycle": 110,
+  "yieldLevel": 650,
+  "plantStatus": 1
+}
+响应:
+{
+  "code": 200,
+  "data": {
+    "createTime": "2026-11-04T14:08:04.2594805",
+    "cropName": "玉米",
+    "cropType": "粮食",
+    "growthCycle": 110,
+    "id": 4,
+    "plantStatus": 1,
+    "suitArea": "黄淮海",
+    "updateTime": "2026-11-04T14:08:04.2594805",
+    "varietyName": "郑单958",
+    "yieldLevel": 650
+  },
+  "msg": "操作成功"
+}
