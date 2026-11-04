@@ -1,0 +1,19 @@
+GET /crop/1
+HTTP 200
+响应:
+{
+  "code": 200,
+  "data": {
+    "createTime": "2026-11-04T14:07:37.557089",
+    "cropName": "水稻",
+    "cropType": "粮食",
+    "growthCycle": 130,
+    "id": 1,
+    "plantStatus": 1,
+    "suitArea": "长江中下游",
+    "updateTime": "2026-11-04T14:07:37.557089",
+    "varietyName": "杂交稻",
+    "yieldLevel": 600
+  },
+  "msg": "操作成功"
+}
