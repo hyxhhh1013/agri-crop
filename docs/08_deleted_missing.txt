@@ -1,0 +1,8 @@
+GET /crop/4
+HTTP 200
+响应:
+{
+  "code": 400,
+  "data": null,
+  "msg": "农作物品种不存在"
+}
