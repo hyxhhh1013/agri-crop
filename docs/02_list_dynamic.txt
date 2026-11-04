@@ -1,0 +1,26 @@
+GET /crop/list?pageNum=1&pageSize=2&cropName=%E7%A8%BB&cropType=%E7%B2%AE%E9%A3%9F
+HTTP 200
+响应:
+{
+  "code": 200,
+  "data": {
+    "current": 1,
+    "pages": 1,
+    "records": [
+      {
+        "createTime": "2026-11-04T14:07:37.557089",
+        "cropName": "水稻",
+        "cropType": "粮食",
+        "growthCycle": 130,
+        "id": 1,
+        "plantStatus": 1,
+        "suitArea": "长江中下游",
+        "updateTime": "2026-11-04T14:07:37.557089",
+        "varietyName": "杂交稻",
+        "yieldLevel": 600
+      }
+    ],
+    "total": 1
+  },
+  "msg": "操作成功"
+}
