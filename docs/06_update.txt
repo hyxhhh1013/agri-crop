@@ -1,0 +1,30 @@
+PUT /crop/update
+HTTP 200
+请求体:
+{
+  "id": 4,
+  "cropName": "玉米",
+  "varietyName": "郑单958改",
+  "cropType": "粮食",
+  "suitArea": "华北",
+  "growthCycle": 115,
+  "yieldLevel": 680,
+  "plantStatus": 1
+}
+响应:
+{
+  "code": 200,
+  "data": {
+    "createTime": "2026-11-04T14:08:04.259481",
+    "cropName": "玉米",
+    "cropType": "粮食",
+    "growthCycle": 115,
+    "id": 4,
+    "plantStatus": 1,
+    "suitArea": "华北",
+    "updateTime": "2026-11-04T14:08:04.259481",
+    "varietyName": "郑单958改",
+    "yieldLevel": 680
+  },
+  "msg": "操作成功"
+}
