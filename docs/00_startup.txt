@@ -1,0 +1,2 @@
+2026-11-04T14:07:39.339+08:00  INFO  --- [agri-crop] o.s.boot.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2026-11-04T14:07:39.350+08:00  INFO  --- [agri-crop] com.hyx.agri.AgriApplication    : Started AgriApplication in 4.208 seconds
